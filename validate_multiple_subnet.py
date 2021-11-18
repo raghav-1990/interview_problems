@@ -32,7 +32,6 @@ def validate_subnet_mask(subnet_mask:str):
             return False
         if each == "0":
             flag = True
-    print(binary_mask)
     return True
 
 #generate 10000 probable subnet masks
